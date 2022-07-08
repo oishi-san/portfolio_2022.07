@@ -1,0 +1,417 @@
+@charset "utf-8";
+/*
+h1{
+    color:rgb(121, 149, 156)
+}
+*/
+
+p{
+    font-size: medium;
+    font-weight: 500;
+    color: #2e2930;
+}
+
+/*
+*{
+    background-color: #fff;
+    color: #333333;
+}
+*/
+
+.rightSpace{
+    width: 1000px;
+    float: left;
+}
+
+div #lowSpace{
+    height: 300%;
+    padding-left: 10%;
+}
+
+header{
+    width: 100%;
+    height: 13%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    filter: drop-shadow();
+    background-color: #333;
+}
+
+
+.header-title{
+    margin: 0 0;
+}
+
+
+.menu-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    margin: 0;
+    
+}
+
+.menu_link {
+    text-decoration: none; 
+    color: ghostwhite;
+}
+
+.story_link {
+    text-decoration: none; 
+    color: ghostwhite;
+    width: 80px;
+    height: 22px;
+    padding: 5px;
+    display: block;
+    color: white;
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    font-weight: bold;
+    background: #585757;
+    text-align: center;
+}
+
+.story_link {
+    margin-left: 400px;
+}
+
+.story_link_2 {
+    text-decoration: none; 
+    color: ghostwhite;
+    width: 150px;
+    height: 22px;
+    padding: 5px;
+    display: block;
+    color: white;
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    font-weight: bold;
+    background: #585757;
+    text-align: center;
+}
+
+.story_link_2 {
+    margin-left: 400px;
+}
+
+nav{
+    margin: 0 0 0 auto;
+}
+
+.menu-item{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.A{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.catch{
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    align-items: center;
+}
+
+
+
+#body{
+    padding-top: 70px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#A{
+    text-align: center;
+}
+
+.item-title::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #333333;
+}
+
+.item-title{
+    padding-left: 5%;
+    padding-top: 4%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer{
+    background-color: #333333;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.title{
+    width: 100%;
+    height: 25px;
+    background: #333333;
+    text-align: end;
+    color: #fff;
+    font-size: medium;
+    border: solid 1px #333333;
+    font-family: cursive;
+}
+*/
+
+.title {
+    position: absolute;
+    display: inline-block;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+.title{
+    margin-left: 400px;
+}
+.title:before, .title:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: black;
+}
+.title:before {
+    left:0;
+}
+.title:after {
+    right: 0;
+}
+
+.sec{
+    padding-left: 10%;
+    padding-bottom: 2%;
+    
+}
+
+.sec_lw{
+    padding-left: 5%;
+    padding-bottom: 2%;
+    
+}
+
+/*
+a,img:hover{
+    opacity: 0.8;
+}
+*/
+
+#fullscreen{
+    width: 100%;
+    height: auto;
+    background-image: url(profile0.jpg);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#profile{
+    
+    width: 200px;
+    height: auto;
+    /*
+    overflow: hidden;
+    */
+    padding: 5%;
+}
+
+img[src="profile.JPG"]{
+    width: 100%;
+    border-radius: 100%;
+}
+
+#about_in{
+    border-radius: 30% 70% 35% 65% / 50% 50% 50% 50%;;
+    background-color: gainsboro;
+    margin: 1% 5% 5% 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*
+    height: 200px;
+    */
+    width: 400px;
+}
+
+
+#about::after{
+    content: "";
+    display: block;
+    clear: both;
+    display: flex;
+    /*
+    flex-direction: row-reverse;
+    */
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+
+#lowSpace{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#story{
+    padding: 5% 5%;
+}
+
+#st1{
+    border-radius: 2% ;
+    background-color: white;
+    margin: 5%;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3);
+}
+
+#st2{
+    border-radius: 2%;
+    background-color:  white;
+    margin: 5%;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3);
+}
+
+#lw_item{
+    display: flex;
+    align-items: center;
+}
+
+#lifeworks{
+    padding: 10% 5%;
+}
+
+img[src="shop.webp"]{
+    width: 100%;
+}
+
+.lw_img{
+    width: 800px;
+    padding: 3%;
+    
+}
+
+.lw_img_r{
+    width: 400px;
+    padding: 5%;
+    object-fit: none;
+}
+
+img[src="R.png"]{
+    width: 100%;
+}
+
+img[src="peint.webp"]{
+    width: 100%;
+}
+
+img[src="sarada.webp"]{
+    width: 100%;
+}
+
+img[src="logo.png"]{
+    width: 18%;
+}
+
+.button{
+    color: rgb(53, 36, 204);
+}
+
+.button_out{
+    text-align: center;
+}
+
+
+.fadein {
+    opacity : 0;
+    transform: translate(-50px, 0);
+    transition: 2s;
+}
+
+/*
+.slide-bottom {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1.3s 0s ease-out;
+}
+*/
+
+.top{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.midle{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.low{
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#skill_in{
+    border-radius: 30% 70% 35% 65% / 50% 50% 50% 50%;;
+    background-color: gainsboro;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 11%;
+    margin-right: 3%;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    padding-left: 9%;
+    padding-right: 9%;
+    
+    width: 400px;
+}
+
+#skill_in_2{
+    border-radius: 80% 30% 60% 40% / 50% 50% 50% 50%;;
+    background-color: darkgray;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 15%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 6%;
+    height: 70px;
+    width: 200px;
+}
+
+#skill{
+    display: flex;
+    align-items: center;
+}
